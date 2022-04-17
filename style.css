@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.bar-btn{
+    font-size: 25px;
+    color: #22bba7;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 100px;
+    background: rgba(0, 0, 0, .95);
+    text-align: center;
+    transition: all .5s;
+    
+}
+
+.nav-menu li { 
+    display:none;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all .5s;
+}
+
+.nav-menu li a {
+    color: rgb(21, 18, 18);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-menu li a.active, .nav-menu li a:hover{
+    color: #3F60A5;
+    transition: .3s;
+}
+
+#check { 
+    display: none;
+}
+
+#check:checked ~ .nav-menu {
+    height: 100vh;
+}
+
+#check:checked ~ .nav-menu li {
+    display: block;
+
+}
+
+
+
+
+.banner-text {
+    padding: 0 30px;
+    margin-top: 150px;
+    text-align: center;
+    color: #2E406E;
+}
+
+.banner-text h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.banner-text span { 
+    color: rgba(248, 8, 8);
+   }
+
+.banner-text h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button1{
+    margin-right: 40px;
+    padding: 10px 30px;
+    background-color: #3F60A5;
+    color: #ece6e6;
+    border-radius: 5px;
+}
+.button1:hover{
+    background-color: rgb(64, 109, 214);
+    color: rgb(232, 233, 234);
+    transition: .5s;
+}
+.button2{
+    margin-right: 40px;
+    padding: 10px 30px;
+    background-color: #3F60A5;
+    color: #ece6e6;
+    border-radius: 5px;
+}
+.button2:hover{
+    background-color: rgb(64, 109, 214);
+    color: rgb(232, 233, 234);
+    transition: .5s;
+}
+
+h2{
+    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h5{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer{
+    background-color: white
+    
+}
+
+a{
+    position: relative;
+    margin-right: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    color: black;
+}
+
+.footerf{
+    display: flex;
+    margin-top: 3rem;
+    padding: 3rem;
+    
+
+}
+
+.textoq{
+    color: rgb(2, 52, 52);
+    font-size: 2rem;
+}
+
+.nav-link{
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+
+}
+
+.nav-link:hover, .nav-link:focus{
+
+    background-size: 100% 2px;
+}
+
+.conocenos{
+    margin-top: 1rem;
+}
+
+.btnf{
+    display: block;
+    border-radius: 3rem;
+    gap: 1rem;
+    margin: 10px;
+    size: 1rem;
+    padding: 15px 32px;
+    width: 99%;    
+
+}
+
+.lead{
+    font-size:2rem;
+    color: #2E406E;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.bodycard{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+
+}
+
+.title{
+text-align: center;
+font-size: 40px;
+color: #3F60A5;
+margin-top: 100px;
+font-weight: 100;
+
+}
+
+
+.containerc{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.containerc .card{
+width: 330px;
+height: 430px;
+border-radius: 8px;
+box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+overflow: hidden;
+margin: 20px;
+text-align: center;
+transition: all 0,25s;
+}
+
+.containerc .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.containerc .card img{
+    width: 330px;
+    height: 220px;
+
+}
+
+.containerc .card h4{
+    font-weight: 600;
+}
+
+.containerc .card p{
+    padding:  0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+.containerc .card a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+
+.pcard{
+    color: #2E406E;
+    font-size: 2rem;
+}
+
+
+.conocenosfaq{
+    padding: 2rem;
+}
+
+
+.btn1{
+    border-radius: 3rem;
+    padding: 1rem;
+    margin-top: 2rem;
+   
+}
+
+.ins{
+    background-color: aqua;
+}
+
+.tituloq{
+    color: #00b4d8;
+    font-size: 4rem;
+    
+    
+}
+
+.textoq{
+    color: black;
+}
+
+
