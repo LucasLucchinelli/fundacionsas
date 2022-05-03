@@ -1,4 +1,10 @@
+
+/* FUENTE */
+
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,900;1,700&family=Montserrat:ital,wght@0,300;0,900;1,400;1,600&family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap");
+
+/* RESET */
+
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +31,8 @@
   color: #00b4d8;
   font-size: 4rem;
 }
-
+ /* NAV */
+ 
 .nav-link {
   text-decoration: none;
   background-image: linear-gradient(currentColor, currentColor);
@@ -48,6 +55,8 @@
   justify-content: center;
   margin: auto;
 }
+
+/* TARJETAS */
 
 .containerc .card {
   display: flex;
@@ -91,6 +100,8 @@
   color: #2E406E;
   font-size: 2rem;
 }
+
+/* BOTON STAFF */
 
 .btnstaff {
   background-color: #4CAF50;
